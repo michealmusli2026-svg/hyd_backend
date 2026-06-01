@@ -38,8 +38,8 @@ const mysql = require("mysql2");
 
 const db = mysql.createPool({
   host: "13.201.44.108",
-  user: "imran",
-  password: "786imran",
+  user: "root",
+  password: "786@Imran",
   database: "hyd_masters",
 });
 
