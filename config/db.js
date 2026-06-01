@@ -37,7 +37,7 @@
 const mysql = require("mysql2");
 
 const db = mysql.createPool({
-  host: "localhost",
+  host: "13.201.44.108",
   user: "imran",
   password: "786imran",
   database: "hyd_masters",
