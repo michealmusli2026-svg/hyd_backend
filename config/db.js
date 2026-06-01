@@ -36,13 +36,18 @@
 
 const mysql = require("mysql2");
 
+// const db = mysql.createPool({
+//   host: "localhost",
+//   user: "imran",
+//   password: "786imran",
+//   database: "hyd_masters",
+// });
 const db = mysql.createPool({
   host: "13.201.44.108",
   user: "root",
   password: "786@Imran",
   database: "hyd_masters",
 });
-
 db.getConnection((err, connection) => {
   if (err) {
     console.log("Database connection failed:", err.message);
